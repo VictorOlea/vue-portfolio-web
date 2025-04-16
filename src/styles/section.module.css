@@ -1,0 +1,35 @@
+.section-card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  overflow: hidden;
+  /text-overflow: ellipsis;
+}
+
+.section-title {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #333;
+  text-align: center;
+}
+
+.section-content {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  padding: 10px;
+  color: #555;
+  line-height: 1.4;
+  text-align: center;
+  overflow-y: auto;
+
+  list-style-type: disc;
+  list-style-position: inside;
+}
