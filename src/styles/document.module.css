@@ -1,0 +1,43 @@
+.document-link {
+  color: inherit;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+}
+
+.document-card {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+}
+
+.document-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.document-title {
+  color: #c70039;
+  font-size: clamp(1.3rem, 2.5vw, 1.4rem);
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.document-icon {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+  padding: 12px;
+}

@@ -1,15 +1,3 @@
-<!-- <template>
-  <div
-    :class="$style.card"
-    :style="{
-      gridColumn: `span ${colSpan}`,
-      gridRow: `span ${rowSpan}`,
-    }"
-  >
-    <slot />
-  </div>
-</template> -->
-
 <template>
   <div
     :class="$style.card"
@@ -50,17 +38,6 @@ const currentSpan = computed(() => {
   }
   return props.responsiveSpan.desktop;
 });
-
-// defineProps({
-//   colSpan: {
-//     type: Number,
-//     default: 1,
-//   },
-//   rowSpan: {
-//     type: Number,
-//     default: 1,
-//   },
-// });
 </script>
 
 <style module>

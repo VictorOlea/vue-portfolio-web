@@ -1,0 +1,50 @@
+.project-link {
+  color: inherit;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+}
+
+.project-card {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+}
+
+.project-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-title {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.project-icon {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+  padding: 12px;
+}
+
+.project-content {
+  color: #555;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  line-height: 1.4;
+  margin: 0;
+  text-align: center;
+}

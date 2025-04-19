@@ -1,3 +1,4 @@
+
 <template>
   <div class="bento-card" :style="gridStyles">
     <slot />

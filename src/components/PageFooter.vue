@@ -8,7 +8,9 @@
       <nav :class="$style.nav">
         <a href="/terms" :class="$style.link">Términos</a>
         <a href="/privacy" :class="$style.link">Privacidad</a>
-        <a href="/contact" :class="$style.link">Contacto</a>
+        <a href="mailto:victor.manuel.olea.ortiz@gmail.com" :class="$style.link"
+          >Contacto</a
+        >
       </nav>
     </div>
   </footer>

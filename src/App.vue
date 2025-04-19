@@ -3,7 +3,7 @@ import DarkModeToggle from "./components/DarkModeToggle.vue";
 import PageFooter from "./components/PageFooter.vue";
 import PageHeader from "./components/PageHeader.vue";
 import SectionTitle from "./components/SectionTitle.vue";
-import Motivation from "./views/Motivation.vue";
+import Motivation from "./views/Docs.vue";
 import Profile from "./views/Profile.vue";
 import Projects from "./views/Projects.vue";
 </script>
@@ -18,7 +18,7 @@ import Projects from "./views/Projects.vue";
   <Profile />
   <SectionTitle title="Projects" />
   <Projects />
-  <SectionTitle title="Motivation" />
+  <SectionTitle title="Links & Docs" />
   <Motivation />
   <PageFooter />
 </template>
