@@ -8,7 +8,10 @@
       }"
     >
       <div :class="imageStyle['img-wrapper']">
-        <img :class="imageStyle['img-card']" src="../assets/profile.jpg" />
+        <img
+          :class="imageStyle['img-card']"
+          src="../assets/avatar-profile.png"
+        />
       </div>
     </BentoCard>
     <BentoCard
