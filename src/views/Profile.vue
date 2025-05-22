@@ -16,20 +16,6 @@
     </BentoCard>
     <BentoCard
       :responsive-span="{
-        desktop: { col: 1, row: 3 },
-        tablet: { col: 2, row: 2 },
-        mobile: { col: 4, row: 3 },
-      }"
-    >
-      <div :class="imageStyle['img-wrapper']">
-        <img
-          :class="imageStyle['img-card']"
-          src="../assets/avatar-profile.png"
-        />
-      </div>
-    </BentoCard>
-    <BentoCard
-      :responsive-span="{
         desktop: { col: 3, row: 3 },
         tablet: { col: 4, row: 3 },
         mobile: { col: 4, row: 4 },
@@ -89,8 +75,8 @@ const experience = [
     period: "Agosto 2024 - Enero 2025",
     description: [
       "Diseño y desarrollo de placas PCB para productos tecnológicos.",
-      "Programación de microcontroladores.",
-      "Armado de productos electrónicos.",
+      "Programación de microcontroladores y Armado de productos electrónicos.",
+      "Asesoría educativa en Explora Maule y proyectos de grado en Diseño Industrial.",
     ],
   },
   {
