@@ -3,7 +3,21 @@
     <BentoCard
       :responsive-span="{
         desktop: { col: 1, row: 3 },
-        tablet: { col: 4, row: 4 },
+        tablet: { col: 2, row: 2 },
+        mobile: { col: 4, row: 3 },
+      }"
+    >
+      <div :class="imageStyle['img-wrapper']">
+        <img
+          :class="imageStyle['img-card']"
+          src="../assets/avatar-profile.png"
+        />
+      </div>
+    </BentoCard>
+    <BentoCard
+      :responsive-span="{
+        desktop: { col: 1, row: 3 },
+        tablet: { col: 2, row: 2 },
         mobile: { col: 4, row: 3 },
       }"
     >
