@@ -30,7 +30,7 @@
           Soy una persona apasionada por la tecnología, motivada con adquirir
           nuevos conocimientos y en la búsqueda de desarrollarme
           profesionalmente. Mis intereses están en el sector industrial,
-          mantenimiento, automatización y robótica.
+          automatización, electrónica y robótica.
         </p>
       </section></BentoCard
     >
@@ -70,6 +70,18 @@ import sectionStyle from "../styles/section.module.css";
 import experienceStyle from "../styles/experience.module.css";
 
 const experience = [
+  {
+    title: "Danich - Ingeniero de Automatización y Control",
+    period: "Marzo 2025 - Diciembre 2025",
+    description: [
+      "Diseño de planos de control, eléctrico, potencia y red.",
+      "Programación PLC Siemens S7-1200 - WAGO 8212-8302 de líneas y maquinaria de producción.",
+      "Protocolos de comunicación Modbus, OPC UA y AS-I.",
+      "Instalación de equipos, puesta en marcha de sistemas automáticos y acompañamiento.",
+      "Liderazgo de equipos técnicos eléctricos y mecánicos.",
+      "Ingeniería inversa en Sorter UNITEC.",
+    ],
+  },
   {
     title: "MOV Design - Personal Científico Tecnológico",
     period: "Agosto 2024 - Enero 2025",
