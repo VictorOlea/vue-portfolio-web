@@ -3,7 +3,7 @@
     <BentoCard
       :responsive-span="{
         desktop: { col: 1, row: 3 },
-        tablet: { col: 2, row: 3 },
+        tablet: { col: 4, row: 4 },
         mobile: { col: 4, row: 3 },
       }"
     >
