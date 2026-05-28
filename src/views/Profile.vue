@@ -72,11 +72,12 @@ import experienceStyle from "../styles/experience.module.css";
 const experience = [
   {
     title: "Danich - Ingeniero de Automatización y Control",
-    period: "Marzo 2025 - Diciembre 2025",
+    period: "Marzo 2025 - Marzo 2026",
     description: [
       "Diseño de planos de control, eléctrico, potencia y red.",
       "Programación PLC Siemens S7-1200 - WAGO 8212-8302 de líneas y maquinaria de producción.",
       "Protocolos de comunicación Modbus, OPC UA y AS-I.",
+      "Desarrollo de reportes automáticos de los procesos productivos",
       "Instalación de equipos, puesta en marcha de sistemas automáticos y acompañamiento.",
       "Liderazgo de equipos técnicos eléctricos y mecánicos.",
       "Ingeniería inversa en Sorter UNITEC.",
@@ -88,16 +89,17 @@ const experience = [
     description: [
       "Diseño y desarrollo de placas PCB para productos tecnológicos.",
       "Programación de microcontroladores y Armado de productos electrónicos.",
+      "Recolección de datos, análisis y desarrollo de reportes.",
       "Asesoría educativa en Explora Maule y proyectos de grado en Diseño Industrial.",
     ],
   },
   {
-    title: "Servicio Técnico Independiente",
+    title: "Servicio Técnico Sorter",
     period: "Enero 2023 - Abril 2024",
     description: [
-      "Diseño y desarrollo de robots educativos, integrando módulos electrónicos e impresión 3D, junto con programación de microcontroladores.",
-      "Fabricación, configuración y mantenimiento de equipos electrónicos, electromecánicos y agroindustriales a medida.",
-      "Asesoría técnica en procesos industriales y soporte en instalaciones especializadas.",
+      "Diseño de una solución electrónica para la activación de una hélice para el control de las heladas en la agricultura.",
+      "item Programación de microcontroladores y sensores.",
+      "Recolección de datos, diseño de informes web y automatizaciones.",
     ],
   },
 ];
